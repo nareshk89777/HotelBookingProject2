@@ -1,26 +1,31 @@
 .image {
   width: 250px;
-  height: 200px;
+  height: 250px;
 }
-#container {
-  margin: 2%;
-}
-ul {
-  padding-left: 14px;
-}
-.list_view {
-  margin: 2%;
+
+.card {
+  background-color: rgb(132, 136, 139);
   width: 40%;
- background-color: rgb(132,136,139);
+  margin: 0px 70px 50px;
+  display: inline-block;
 }
-.logo {
-  width: 60px;
-  height: 60px;
+#card a {
+  text-decoration: none;
+  color: black;
 }
-.footer {
-  width: 20px;
-  height: 22px;
+.list ul a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
 }
-.head{
-  background-color: rosybrown;
+.list ul {
+  list-style-type: none;
+  text-align: center;
+}
+.list ul li {
+  display: inline;
+}
+#para {
+  
 }
